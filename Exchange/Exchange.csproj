@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8461D33A-3143-40A6-8B37-113D41EB411C}</ProjectGuid>
+    <ProjectGuid>{D9C75B03-463A-4272-9AB6-331BF15B8B69}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EasyNetMQ</RootNamespace>
-    <AssemblyName>EasyNetMQ</AssemblyName>
+    <RootNamespace>Exchange</RootNamespace>
+    <AssemblyName>Exchange</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -78,7 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
-      <Project>{00CB2B46-6C78-4C75-BB2B-13CCF68F1B0E}</Project>
+      <Project>{00cb2b46-6c78-4c75-bb2b-13ccf68f1b0e}</Project>
       <Name>ClassLibrary1</Name>
     </ProjectReference>
   </ItemGroup>
